@@ -205,6 +205,10 @@ a{
         transition: all .5s ease-in-out;
     }
 
+    .container.hide{
+        display: none;
+    }
+
     .menu-links h1{
         margin: 20px 0px;
     }
