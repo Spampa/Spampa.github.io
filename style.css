@@ -132,8 +132,11 @@ a{
     
 }
 #second{
+    position: absolute;
     z-index: 3;
     margin-top: 550px;
+    background-color: var(--black-color);
+    color: #fff;
 }
 
 .page-content{
@@ -314,8 +317,13 @@ a{
         display: none;
     }
 
+    .container.hide #second{
+        display: none;
+    }
+
     .menu-links h1{
         margin: 20px 0px;
+        font-size: 30px;
     }
 
     .menu-links a{
