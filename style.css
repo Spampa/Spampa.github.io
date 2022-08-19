@@ -37,7 +37,7 @@
 
 a {
     text-decoration: none;
-    color: #fff;
+
 }
 
 .anchor{
@@ -334,6 +334,10 @@ a {
 .link-box:hover{
     transition: 200ms;
     background-color: #0f0f0f;
+}
+
+a{
+    color: #fff;
 }
 
 #gmail{
@@ -633,6 +637,10 @@ footer{
 
     #mail{
         font-size: 20px;
+    }
+
+    a{
+        color: #fff;
     }
 
 }
