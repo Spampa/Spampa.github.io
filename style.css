@@ -8,6 +8,8 @@
     --black-color: #252422;
     --yellow-color: #DDCA7D;
     --blue-color: #4285F4;
+
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -37,6 +39,10 @@ a {
     text-decoration: none;
 }
 
+.anchor{
+    position: relative;
+    top: -60px;
+}
 .header {
     background-color: var(--dark-black-color);
     width: 100%;
@@ -277,6 +283,79 @@ a {
 
 .content-skill{
     margin-bottom: 50px;
+}
+
+.contact{
+    padding: 50px 0px;
+}
+
+.contact #contact-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--red-color);
+}
+
+.container-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px
+}
+
+.link-box{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-left img{
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.box-right h2{
+    font-weight: 300;
+}
+
+.box-right h1{
+    font-size: 30px;
+}
+
+.link-box{
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--dark-black-color);
+    /*box-hadow*/
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.link-box:hover{
+    transition: 200ms;
+    background-color: #0f0f0f;
+}
+
+#gmail{
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+    margin-right: 30px;
+    border-radius: 0px;
+}
+
+#yellow{
+    background-color: var(--yellow-color);
+    color:var(--black-color);
+}
+
+
+.footer-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 15px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -540,7 +619,19 @@ a {
         font-size: 50px;
     }
 
+    .container-box{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
 
+    .link-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
+    #mail{
+        font-size: 20px;
+    }
 
 }
