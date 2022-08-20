@@ -270,6 +270,22 @@ a {
     margin-left: 16px;
 }
 
+.certificate-container h1{
+    transition: 300ms;
+    margin: 20px 15px;
+    padding: 10px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 65%;
+}
+
+.certificate-container h1:hover{
+    transition: 300ms;
+    background-color: #5f98f3;
+}
+
+
 .skill-content-title {
     display: flex;
     align-items: center;
@@ -396,6 +412,8 @@ footer{
     margin: 20px;
     text-align: center;
 }
+
+
 
 @media screen and (max-width: 1300px) {
     .header-content {
