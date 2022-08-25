@@ -85,8 +85,12 @@ a {
     margin: 0px 40px;
 }
 
-.header-link a:hover {
+.header-link a:hover{
     border-bottom: 3px solid var(--red-color);
+}
+
+#link-active{
+    border-bottom: 3px solid var(--yellow-color);
 }
 
 .header-logo img {
@@ -195,6 +199,11 @@ a {
 #black {
     background-color: var(--black-color);
     color: #fff;
+}
+
+#white{
+    background-color: var(--white-color);
+    color: var(--black-color);
 }
 
 .about {
@@ -409,7 +418,7 @@ footer{
 }
 
 .rights{
-    margin: 20px;
+    padding: 20px;
     text-align: center;
 }
 
